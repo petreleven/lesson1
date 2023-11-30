@@ -1,155 +1,106 @@
-<!---
-______________________________________________________________
-| BRAND | About | Services | Portfolio | Contact             |
-|_______|_______|__________|___________|_____________________|
-|                            |                               |
-|                            |                               |
-|------------------------------------------------------------|                                                           
-|                            |                               |
-| ___________________________|_______________________________|  
-
-|                                                            |
-| ___________________________ _______________________________|           Get it at https://getbootstrap.com/docs/5.0/getting-started/introduction/ 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
---><!--
-______________________________________________________________
-| BRAND | About | Services | Portfolio | Contact             |
-|_______|_______|__________|___________|_____________________|
-|                            |                               |
-|                            |                               |
-|------------------------------------------------------------|                                                           
-|                            |                               |
-| ___________________________|_______________________________|  
-
-|                                                            |
-| ___________________________ _______________________________| -->
 <DOCTYPE html>
   <html>
-    <head>
-        <!--BY ALDWIN-->
-        <!--WE OPTED TO USE BOOTSTRAP FOR OUR DESIGN AS IT WAS MORE INTUITIVE-->
-       <!--CREATING THE TITLE OF OUR WEBSITE AND IMPORTING BOOSTSTRAP CSS FOR STYLIING-->
-      <title>Safari TechHub</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"">
-      <link src="style.css"></link>
-    </head>
-    <body>
-      <!--BY MAX>
-      <!--CREATING THE TITLE OF OUR WEBSITE AND IMPORTING BOOSTSTRAP CSS FOR STYLIING-->
-      <nav class="navbar navbar-expand bg-warning">
-        <!--CREATING OUR BRAND LOGO-->
-        <a class="navbar-brand">Safari TechHub</a>
-         <!--CREATING LINKS TO VISTABLE LINKS ON OUR SITE-->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link">About</a>            
-            </li>
-          <li class="nav-item">
-            <a class="nav-link">Tours and Destinations</a>            
-            </li>
-          <li class="nav-item">
-          <a class="nav-link">Blog</a>            
-          </li>
-        </ul>
-      </nav>
 
-      <!--BY YASSER-->
-      <!--MOST MODERN WEBSITES ARE DESIGNED TO BE VIWED ON PHONES AND COMPUTERS
-      <!--WE MADE OUR WEBSITE RESPONSIVE ON MOBILE PHONES AND LAPTOPS USING CONTAINERS SO
-      THE CONTENT IS VIEWABLE ON ALL DEVICES-->
-      <!--CREATED THE WELCOME SECTION ON THE LANDING PAGE WITH SOME BACKGROUND IMAGES-->
-      <div class="container" >
-        <!--Row 1-->
-        <div class="row">
-          <div class="col">
-            <h1>Welcome to Safari TechHub</h1>
-          </div>
-          <div class="col">
-            <h1>We showcase our talent as techpreneurs</h1>
-          </div>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class=" navbar navbar-expand bg-warning">
+      <a class="navbar-brand">Safari TechHub</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <!--Row 1-->
+      <div class="row" style="height: 400px; background: url('elephant.jpg'); background-size: cover;">
+        <div class="col">
+          <h1>Welcome to Safari TechHub</h1>
         </div>
-
-        <!--By ASHNAID-->
-        <!--WE DESIGNED CARDS TO SHOWCASE KENYA AS A TOURIST ZONE AND AS A TECHNOLOGY HUB USING
-          IMAGES WITH TEXT OVERLAYS-->
-        <!--Row 2-->
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <img src="elephant.jpg" class="card-img">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Tours & Destinations</h5>
-                <p class="card-text"> <a href="#">Explore</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <h2>This is where we will place an image</h2>
-          </div>
-          <div class="col">
-            <h2>This is the third column</h2>
-          </div>
+        <div class="col">
+          <h1>We showcase our talent as techpreneurs</h1>
         </div>
-
-
-        <!--BY QWE-->
-        <!--WE ADDED A GALLERY OF IMAGES WHERE PEOPLE COULD VIEW OUR TOP PICKS
-        FOR THE BEST PLACES TO VISIT-->
-        <article class="thumbnail">
-          <!--EXAMPLE OF ADDING AN IMAGE OF A LION IN MASSASI MARA-->
-            <img src="lions.jpg" alt="" width="270" height="195" />
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="lions.jpg"
-                data-lightgallery="item"><img src="images/gallery-image-1-270x195.jpg" alt="" width="270"
-                  height="195" /></a>
-            </div>
-        </article>
-
-        <!--BY SHEMA-->
-        <!--ADDED A FOOTER SECTION SO PEOPLE AND BUSINESSES COULD FIND A WAY TO CONTACT US-->
-                  <ul class="footer-contacts d-inline-block d-sm-block">
-                    <li>
-                      <div class="unit">
-                        <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
-                        <div class="unit-body"><a class="link-aemail" href="mailto:#">info@kuazone.com</a></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="unit">
-                        <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                        <div class="unit-body"><a class="link-location" href="#">Kua Zone Innovation College Ltd
-                            Limuru Road, Nairobi Metropolis
-                            Kenya</a></div>
-                      </div>
-                    </li>
-                  </ul>
       </div>
 
-      <!--BY LARISSA-->
-      <!--WE ADDED A SECTION ON OUR WEBSITE SO PEOPE COULD BE ABLE TO EXPLORE
-      EITHER OUR CULTURE OR THE DESTINATIONS KENYA HAS TO OFFER-->
-      <div class="row justify-content-center">
-              <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
-                <ul class="list-marked-2 box-categories-list">
-                  <li><a href="#"><img src="https://www.kenyatourism.in/images/hot-air-balloon-at-dawn-maasai-mara.jpg"
-                        alt="" width="368" height="420" /></a>
-                    <h5 class="box-categories-title">Tours & Destinations</h5>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
-                <ul class="list-marked-2 box-categories-list">
-                  <li><a href="#"><img
-                        src="https://img.freepik.com/free-photo/shallow-focus-shot-three-african-males-holding-sticks_181624-46377.jpg?size=626&ext=jpg&ga=GA1.1.958604921.1699933706&semt=sph"
-                        alt="" width="368" height="420" /></a>
-                    <h5 class="box-categories-title">Culture & Cuisines</h5>
-                  </li>
-                </ul>
-              </div>
+      <!--Row 2-->
+      <div class="row pt-4">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/male-female-lions-laying-sand-resting_181624-2063.jpg?size=626&ext=jpg&ga=GA1.1.510572555.1700045255&semt=sph"
+              class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tours & Destinations</h5>
+              <p class="card-text"> <a href="#">Explore</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/african-leopard-female-pose-beautiful-evening-light_475641-34.jpg?size=626&ext=jpg&ga=GA1.1.510572555.1700045255&semt=sph"
+              class="card-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Culture & Cuisines</h5>
+              <p class="card-text"><a href="#">Explore</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/flamingos-lake-savannah_167946-53.jpg?size=626&ext=jpg&ga=GA1.1.510572555.1700045255&semt=sph"
+              class="card-img img-fluid">
+            <div class="card-img-overlay">
+              <h5 class="card-title">TechHub</h5>
+              <p class="card-text"><a href="#">Explore</a></p>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+      <!--row3-->
+      <hr class="mb-3">
+      <section class="row">
+        <div class="col-lg-6 text-center">
+          <h5 class="fw-bolder fs-4">Our Dream</h5>
+          <p>To show people the cool stuff we have in kenya</p>
+          <a href="#" class="btn btn-secondary">Explore</a>
+        </div>
+        <div class="col-lg-6 text-center pt-2">
+          <h5 class="fw-bolder fs-5">Our Vision</h5>
+          <p>To create a website that enables us to showcase kenya as a techhub and a tourist destination</p>
+          <a href="#" class="btn btn-secondary">Explore</a>
+        </div>
+      </section>
+
+      <section class="row">
+        <!--column 1-->
+        <div class="col-md-4">
+          <div class="text-center"></div>
+        </div>
+        <!--column 2-->
+        <div class="col-md-4"></div>
+        <!--column 3-->
+        <div class="col-md-4"></div>
+      </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+
   </html>
-  
