@@ -46,3 +46,26 @@ Ask the user to enter a **secret code**.
 - Otherwise, print **"Wrong code! Try again!"**  
 
 ---
+
+Here are some for loop questions without answers:  
+
+---
+
+### 6 Find the Lucky Number  
+Loop through the list of numbers. If you find **7**, print **"Lucky number found!"** and stop the loop.  
+
+```python
+numbers = [3, 9, 12, 7, 15, 20]
+```
+
+---
+
+
+
+### 47 Find the First Big Number  
+Loop through the list. If a number is greater than **50**, print **"Big number found!"** and stop the loop.
+```python
+numbers = [3, 9, 12, 7, 15, 20]
+```
+
+
