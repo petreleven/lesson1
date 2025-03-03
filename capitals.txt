@@ -1,22 +1,7 @@
-countries_and_capitals = {
-    'United States': 'Washington, D.C.',
-    'Canada': 'Ottawa',
-    'United Kingdom': 'London',
-    'Germany': 'Berlin',
-    'France': 'Paris',
-    'Italy': 'Rome',
-    'Spain': 'Madrid',
-    'Japan': 'Tokyo',
-    'China': 'Beijing',
-    'India': 'New Delhi',
-    'Brazil': 'Brasília',
-    'Australia': 'Canberra',
-    'South Africa': 'Pretoria',
-    'Russia': 'Moscow',
-    'Mexico': 'Mexico City',
-    'Argentina': 'Buenos Aires',
-    'South Korea': 'Seoul',
-    'Saudi Arabia': 'Riyadh',
-    'Nigeria': 'Abuja',
-    'Egypt': 'Cairo'
-}
+
+const now = new Date();
+const hours = now.getHours().toString().padStart(2, '0');  // 24-hour format
+const minutes = now.getMinutes().toString().padStart(2, '0');
+const seconds = now.getSeconds().toString().padStart(2, '0');
+
+return `${hours}:${minutes}:${seconds}`;
